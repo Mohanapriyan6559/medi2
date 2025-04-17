@@ -1,0 +1,99 @@
+input{
+    outline: none;
+}
+.options option{
+    outline: none;
+}
+
+.searchbarmain{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
+    max-width:1350px ;
+    
+    .logo img{
+        width: 220x;
+        height:40px;        
+    }
+    .search-box{
+        border: 1px solid rgb(129, 129, 129);
+        background-color: white;
+        overflow: hidden;
+        border-radius: 12px;
+    
+     .search-bar{
+        display: flex;
+        align-items: center;
+        select,input{
+            border: none;
+            padding:5px;
+        }
+        input{
+            width:350px;
+        }
+
+        .searcchicon{
+            width:20px;
+            height: 100%;
+            background-color:#F7AD19;
+            padding:15px;
+            color:black ;
+        }
+    }        
+    }
+
+    .contact{
+        display: flex;
+        align-items:center;
+        gap: 5px;
+
+        p{
+            margin:0 0 ;
+        }
+    }
+    .menubuttons{
+      display: flex;
+      gap:20px;
+      
+      img{
+        width:15px;
+        height:15px;
+      }
+    }
+  
+}
+
+@media (max-width:955px){
+    .search-box{
+        width: 300px;
+    }
+    .contact-call{
+        display: none;
+    }
+}
+
+@media(max-width:779px){
+    .contact{
+        display: none;
+    }
+    .search-box{
+        width:250px;
+    }
+    .searcchicon{
+        color: black;
+        width:20px;
+        height: 100%;
+        background-color:#F7AD19;
+        padding:15px
+    }
+   .grid-col{
+    margin-top: 100px;
+   }
+   #service{
+    margin: 0 auto;
+    left:80px;
+   }
+}
+
+
